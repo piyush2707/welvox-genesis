@@ -1,0 +1,143 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#090914">
+  <meta name="description" content="Turn your ideas into structured product blueprints with Welvox GENESIS.">
+  <title>Welvox GENESIS — Make it real</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="ambient ambient-one"></div>
+  <div class="ambient ambient-two"></div>
+
+  <header class="topbar">
+    <a class="brand" href="#" aria-label="Welvox GENESIS home">
+      <span class="brand-mark">G</span>
+      <span>WELVOX <b>GENESIS</b><small>IDEAS INTO REALITY</small></span>
+    </a>
+    <button class="quiet-button" id="projects-button">My projects <span id="project-count">0</span></button>
+  </header>
+
+  <main class="shell">
+    <section class="hero">
+      <div class="eyebrow"><span class="live-dot"></span> YOUR CREATION ENGINE</div>
+      <h1>Every great thing<br>starts <span>somewhere.</span></h1>
+      <p class="hero-copy">Bring the idea. We'll shape the blueprint.</p>
+
+      <div class="idea-panel">
+        <label for="idea">WHAT DO YOU WANT TO BRING TO LIFE?</label>
+        <textarea id="idea" maxlength="3000" placeholder="An app that helps independent creators turn their skills into income..."></textarea>
+        <div class="input-footer">
+          <span id="char-count">0 / 3000</span>
+          <button id="generate-button" class="primary-button">
+            <span>✦</span> Create blueprint <span>↗</span>
+          </button>
+        </div>
+      </div>
+
+      <div class="suggestions">
+        <span>NEED A SPARK?</span>
+        <button data-idea="A beautiful personal finance app for young freelancers">Finance app</button>
+        <button data-idea="A community marketplace where creators sell digital products">Creator marketplace</button>
+        <button data-idea="A simple AI-powered study planner for students">Study companion</button>
+      </div>
+    </section>
+
+    <section id="workspace" class="workspace" hidden>
+      <div class="workspace-heading">
+        <div>
+          <div class="eyebrow"><span class="live-dot"></span> BLUEPRINT GENERATED</div>
+          <h2 id="result-title">Your next big thing</h2>
+          <p id="result-subtitle" class="muted"></p>
+        </div>
+        <button id="new-button" class="quiet-button">+ New idea</button>
+      </div>
+
+      <div class="status-strip">
+        <div><span class="status-icon">01</span><span>Idea captured</span><b>READY</b></div>
+        <div><span class="status-icon">02</span><span>Blueprint</span><b>READY</b></div>
+        <div><span class="status-icon">03</span><span>Implementation</span><b>AGENT-READY</b></div>
+      </div>
+
+      <div class="result-grid">
+        <article class="result-card main-card">
+          <div class="card-top"><span class="card-symbol">✳</span><span class="tag">THE VISION</span></div>
+          <h3>Product brief</h3>
+          <p id="brief"></p>
+          <div class="mini-divider"></div>
+          <h4>Who it's for</h4>
+          <p id="audience"></p>
+          <h4>The core promise</h4>
+          <p id="promise"></p>
+        </article>
+
+        <article class="result-card">
+          <div class="card-top"><span class="card-symbol">◈</span><span class="tag">BUILD FIRST</span></div>
+          <h3>Core features</h3>
+          <ul id="features" class="feature-list"></ul>
+        </article>
+
+        <article class="result-card">
+          <div class="card-top"><span class="card-symbol">⌘</span><span class="tag">EXPERIENCE</span></div>
+          <h3>Suggested screens</h3>
+          <ul id="screens" class="feature-list"></ul>
+        </article>
+
+        <article class="result-card">
+          <div class="card-top"><span class="card-symbol">⚡</span><span class="tag">NEXT MOVES</span></div>
+          <h3>Build roadmap</h3>
+          <ol id="roadmap" class="roadmap-list"></ol>
+        </article>
+
+        <article class="result-card full-card">
+          <div class="card-top"><span class="card-symbol">✧</span><span class="tag">YOUR AGENT HANDOFF</span></div>
+          <h3>Ready to build with an AI coding agent?</h3>
+          <p>Copy the implementation brief into a compatible coding agent, or download the complete blueprint.</p>
+          <textarea id="agent-prompt" class="prompt-preview" readonly aria-label="Agent implementation prompt"></textarea>
+          <div class="action-row">
+            <button class="primary-button" id="copy-button">Copy agent prompt</button>
+            <button class="secondary-button" id="markdown-button">Export Markdown</button>
+            <button class="secondary-button" id="json-button">Export JSON</button>
+            <button class="secondary-button" id="save-button">Save project</button>
+          </div>
+          <p id="feedback" class="feedback" role="status" aria-live="polite"></p>
+        </article>
+      </div>
+    </section>
+
+    <section id="projects-section" class="projects-section" hidden>
+      <div class="workspace-heading">
+        <div>
+          <div class="eyebrow">YOUR CREATION ARCHIVE</div>
+          <h2>Ideas in motion.</h2>
+        </div>
+        <button id="close-projects" class="quiet-button">Close ×</button>
+      </div>
+      <div id="saved-projects" class="saved-projects"></div>
+    </section>
+
+    <section class="how-section">
+      <div class="eyebrow">FROM THOUGHT TO PLAN</div>
+      <h2>Make the impossible<br><span>feel actionable.</span></h2>
+      <div class="steps">
+        <div><span>01</span><h3>Imagine</h3><p>Describe the thing you wish existed.</p></div>
+        <div><span>02</span><h3>Shape</h3><p>Turn it into features, screens and a plan.</p></div>
+        <div><span>03</span><h3>Create</h3><p>Take your blueprint to your coding agent.</p></div>
+      </div>
+    </section>
+
+    <footer>
+      <a class="brand footer-brand" href="#"><span class="brand-mark">G</span><span>WELVOX <b>GENESIS</b></span></a>
+      <span>Made for ideas that deserve to exist.</span>
+      <span>V0.1.0</span>
+    </footer>
+  </main>
+
+  <noscript>This creation studio needs JavaScript enabled to generate blueprints.</noscript>
+  <script src="app.js"></script>
+</body>
+               </html>
+               
