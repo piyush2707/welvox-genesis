@@ -12,7 +12,7 @@ Welvox GENESIS is a mobile-first, browser-based creation studio paired with a re
 
 
 <p align="center">
-  <img src="assets/welvox-genesis.png" 
+  <img src="welvox-genesis.png" 
 </p>
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/piyush2707/)
