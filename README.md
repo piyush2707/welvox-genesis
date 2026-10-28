@@ -11,7 +11,9 @@ Welvox GENESIS is a mobile-first, browser-based creation studio paired with a re
 **Build requirement:** No local build step for the initial website
 
 
-![Welvox GENESIS preview](assets/genesis-preview.png)
+<p align="center">
+  <img src="assets/welvox-genesis.png" alt="Welvox GENESIS website preview" width="800">
+</p>
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/piyush2707/)
 
