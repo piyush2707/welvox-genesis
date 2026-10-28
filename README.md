@@ -10,6 +10,9 @@ Welvox GENESIS is a mobile-first, browser-based creation studio paired with a re
 **Website:** GitHub Pages  
 **Build requirement:** No local build step for the initial website
 
+
+![Welvox GENESIS preview](assets/genesis-preview.png)
+
 ## What it does
 
 Enter a plain-language idea and generate a structured starting point for a software project.
