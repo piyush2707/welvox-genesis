@@ -19,9 +19,7 @@ Welvox GENESIS is a mobile-first, browser-based creation studio paired with a re
 
 *Imagine it. Shape it. Build it.*
 
-![Welvox GENESIS Preview](assets/YOUR-IMAGE-NAME.png)]
-
-[![Live Website](https://piyush2707.github.io/welvox-genesis/)
+[![Live Website](https://img.shields.io/badge/LIVE%20WEBSITE-Launch-22c55e?style=for-the-badge&logo=googlechrome&logoColor=white)](https://piyush2707.github.io/welvox-genesis/)
 
 [![Release](https://img.shields.io/github/v/release/piyush2707/welvox-genesis?style=for-the-badge&color=8b5cf6)](https://github.com/piyush2707/welvox-genesis/releases/latest)
 
