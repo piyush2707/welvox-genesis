@@ -13,13 +13,19 @@ Welvox GENESIS is a mobile-first, browser-based creation studio paired with a re
 
 <p align="center">
   <img src="welvox-genesis.png" 
-</p>
+    </p>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/piyush2707/)
+  # Welvox GENESIS
+
+*Imagine it. Shape it. Build it.*
+
+![Welvox GENESIS Preview](assets/YOUR-IMAGE-NAME.png)
+
+[![Live Website](https://img.shields.io/badge/Live%20Website-Launch-22c55e?style=for-the-badge)](https://piyush2707.github.io/welvox-genesis/)
 
 [![Release](https://img.shields.io/github/v/release/piyush2707/welvox-genesis?style=for-the-badge&color=8b5cf6)](https://github.com/piyush2707/welvox-genesis/releases/latest)
 
-[![Releases](https://img.shields.io/badge/Releases-View%20All-8b5cf6?style=for-the-badge&logo=github)](https://github.com/piyush2707/welvox-genesis/releases)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/piyush2707/)
 
 ## What it does
 
